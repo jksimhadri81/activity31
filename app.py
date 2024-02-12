@@ -4,7 +4,7 @@ app=Flask(__name__)
 
 @app.route('/')
 def basic():
-    return 'api server '
+    return 'api server started'
 
 @app.route('/soil',methods=['get'])
 
